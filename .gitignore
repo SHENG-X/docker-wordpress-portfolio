@@ -1,2 +1,4 @@
-
-/wordpress/wp-content/uploads
+# ingore everthing in wordpress folder
+wordpress/*
+# keep track of changes in themes
+!wordpress/wp-content/themes/*
