@@ -6,11 +6,24 @@
     <?php
       echo get_the_date('m/d/Y');
     ?>
-
+  </div>
+  <div>
+    <?php if(has_post_thumbnail()) : ?>
+      <img
+        class="img-thumbnail img-fluid"
+        src="<?php the_post_thumbnail_url('blog-large'); ?>"
+        alt="<?php the_title(); ?>"
+      />
+    <?php endif;?>
+  </div>
+  <div>
+    <?php the_content(); ?>
+  </div>
+  <div class="mb-3">
     <?php
       $fname = get_the_author_meta('first_name');
       $lname = get_the_author_meta('last_name');
-      echo "$fname $lname"
+      echo "Posted by: "."$fname $lname"
     ?>
 
     <?php
