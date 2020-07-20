@@ -68,4 +68,83 @@ register_nav_menus(
   )
 );
 
+// register sidebars
+function comet_sidebars() {
+  // front page widgets
+  register_sidebar(
+    array(
+      'name' => 'Front Page: Intro',
+      'id' => 'front-page-intro',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Front Page: Pic',
+      'id' => 'front-page-pic',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Front Page: Social Media',
+      'id' => 'front-page-social',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Front Page: Projects',
+      'id' => 'front-page-projects',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Front Page: Skills',
+      'id' => 'front-page-skills',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Front Page: Hobbies',
+      'id' => 'front-page-hobbies',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+
+  register_sidebar(
+    array(
+      'name' => 'Page Sidebar',
+      'id' => 'page-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Blog Sidebar',
+      'id' => 'blog-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+  register_sidebar(
+    array(
+      'name' => 'Blog Page Sidebar',
+      'id' => 'blog-page-sidebar',
+      'before_title' => '<h4 class="widget-title">',
+      'after_title' => '</h4>'
+    )
+  );
+}
+add_action('widgets_init', 'comet_sidebars');
+
 ?>
