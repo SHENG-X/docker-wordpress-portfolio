@@ -23,6 +23,13 @@ function comet_register_styles() {
     '4.5.0',
     'all'
   );
+  wp_enqueue_style(
+    'comet-style',
+    get_template_directory_uri() . '/style.css',
+    array(),
+    '1.0.0',
+    'all'
+  );
 }
 add_action('wp_enqueue_scripts', 'comet_register_styles');
 
