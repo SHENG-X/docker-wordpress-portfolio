@@ -131,3 +131,32 @@ body {
 .navbar-light .navbar-nav .nav-link {
   color: var(--orange);
 }
+
+/* front page */
+.font-page-content .row > div{
+  display: flex;
+  align-items: center;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.intro .widget-title {
+  font-size: 36px;
+  margin-bottom: 1.5rem;
+}
+.intro .textwidget p{
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
+}
+.social-media {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.skills-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
