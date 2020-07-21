@@ -112,10 +112,6 @@ body {
 }
 
 /* front page */
-.font-page-content .row > div{
-  display: flex;
-  align-items: center;
-}
 .intro {
   display: flex;
   flex-direction: column;
