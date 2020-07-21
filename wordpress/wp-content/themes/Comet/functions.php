@@ -159,7 +159,6 @@ function comet_project_post_type() {
     'public' => true,
     'has_archive' => true,
     'supports' => array('title', 'thumbnail', 'custom-fields'),
-
   );
   register_post_type( 'project', $args );
 }
