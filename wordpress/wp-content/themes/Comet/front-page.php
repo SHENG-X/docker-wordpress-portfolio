@@ -29,19 +29,103 @@
     <div class="col-md-12">
       <div class="skills-container">
         <div class="skill-item">
-          Frontend
+          <div class="title">
+            Frontend
+          </div>
+          <div>
+            <div>
+              JavaScript
+            </div>
+            <div>
+              TypeScript
+            </div>
+            <div>
+              HTML
+            </div>
+            <div>
+              CSS
+            </div>
+            <div>
+              SCSS
+            </div>
+            <div>
+              React.js
+            </div>
+            <div>
+              React Native
+            </div>
+            <div>
+              Vue.js
+            </div>
+            <div>
+              jQuery.js
+            </div>
+          </div>
         </div>
         <div class="skill-item">
-          Backend
+          <div class="title">
+            Backend
+          </div>
+          <div>
+            <div>
+              Node.js
+            </div>
+            <div>
+              Django
+            </div>
+            <div>
+              .Net
+            </div>
+            <div>
+              PHP
+            </div>
+          </div>
         </div>
         <div class="skill-item">
-          Database
+          <div class="title">
+            Database
+          </div>
+          <div>
+            <div>
+              MySQL
+            </div>
+            <div>
+              MongoDB
+            </div>
+            <div>
+              MS SQL
+            </div>
+            <div>
+              SQLite
+            </div>
+          </div>
         </div>
         <div class="skill-item">
-          Version Control
+          <div class="title">
+            Version Control
+          </div>
+          <div>
+            GIT
+          </div>
+          <div>
+            TFS
+          </div>
         </div>
         <div class="skill-item">
-          Project Management Tools
+          <div class="title">
+            Project MGMT Tools
+          </div>
+          <div>
+            <div>
+              Azure DevOps
+            </div>
+            <div>
+              GitHub
+            </div>
+            <div>
+              MS Teams
+            </div>
+          </div>
         </div>
       </div>
     </div>
