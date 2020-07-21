@@ -28,11 +28,11 @@
     </div>
     <div class="col-md-12">
       <div class="skills-container">
-        <div class="skill-item">
+        <div class="skill-item front-end">
           <div class="title">
-            Frontend
+            Frontend 
           </div>
-          <div>
+          <div class="content">
             <div>
               JavaScript
             </div>
@@ -58,15 +58,16 @@
               Vue.js
             </div>
             <div>
-              jQuery.js
+              jQuery
             </div>
           </div>
         </div>
-        <div class="skill-item">
+
+        <div class="skill-item back-end">
           <div class="title">
             Backend
           </div>
-          <div>
+          <div class="content">
             <div>
               Node.js
             </div>
@@ -81,11 +82,12 @@
             </div>
           </div>
         </div>
-        <div class="skill-item">
+
+        <div class="skill-item database">
           <div class="title">
             Database
           </div>
-          <div>
+          <div class="content">
             <div>
               MySQL
             </div>
@@ -100,22 +102,26 @@
             </div>
           </div>
         </div>
-        <div class="skill-item">
+
+        <div class="skill-item version-control">
           <div class="title">
             Version Control
           </div>
-          <div>
-            GIT
-          </div>
-          <div>
-            TFS
+          <div class="content">
+            <div>
+              GIT
+            </div>
+            <div>
+              TFS
+            </div>
           </div>
         </div>
-        <div class="skill-item">
+
+        <div class="skill-item project-management">
           <div class="title">
             Project MGMT Tools
           </div>
-          <div>
+          <div class="content">
             <div>
               Azure DevOps
             </div>
@@ -126,6 +132,8 @@
               MS Teams
             </div>
           </div>
+        </div>
+
         </div>
       </div>
     </div>
