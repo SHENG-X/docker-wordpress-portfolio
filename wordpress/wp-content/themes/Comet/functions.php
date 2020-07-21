@@ -147,4 +147,22 @@ function comet_sidebars() {
 }
 add_action('widgets_init', 'comet_sidebars');
 
+/* custom post type project */
+function comet_project_post_type() {
+  $args = array(
+    'labels' => array(
+      'name' => 'Projects',
+      'singular' => 'Project',
+    ),
+    'menu_icon' => 'dashicons-portfolio',
+    'hierarchical' => false,
+    'public' => true,
+    'has_archive' => true,
+    'supports' => array('title', 'thumbnail', 'custom-fields'),
+
+  );
+  register_post_type( 'project', $args );
+}
+add_action('init', 'comet_project_post_type');;
+
 ?>
