@@ -1,7 +1,7 @@
-<div class="row">
+<div class="row section">
   <div class="col-md-12">
-    <h4>
-      Skills
+    <h4 class="section-title font-weight-bold text-center mb-3">
+      Skills Overview
     </h4>
   </div>
   <div class="col-md-12">
