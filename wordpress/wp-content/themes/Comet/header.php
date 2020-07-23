@@ -18,11 +18,10 @@
                 <div class="leading-label">
                   Hello, my name is
                 </div>
-                <h2 class="mt-0 display-4 font-weight-bold">
-                  Sheng Xiao
-                </h2>
                 <div class="bio mb-3">
-                  I am a full stack web application developer.  I have over two years enterprise web application development experiences. I am enthusiasm for coding and programming. Don’t hesitate to contact me if you need some help.
+                  <?php if(is_active_sidebar('front-page-intro')) :?>
+                    <?php dynamic_sidebar('front-page-intro') ?>
+                  <?php endif; ?>
                 </div>
               </div>
               <div class="col-md-4">
