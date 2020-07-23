@@ -5,7 +5,8 @@
     </h4>
     <div class="description-container">
       <div class="description">
-        I have more than 8 years' experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience?
+        I have more than 2 years' experience building frontend and fullstack web applications.
+        Below is a quick overview of my main technical skill sets and tools I use.
       </div>
     </div>
   </div>
