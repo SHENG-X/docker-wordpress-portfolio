@@ -24,6 +24,38 @@ ul {
   padding: 1rem 0;
 }
 
+/* shared */
+.comet-card {
+  position: relative;
+  background: white;
+  box-shadow:  0 0 10px 2px #dedede;
+  padding-bottom: 1.5rem;
+  margin: 1.5rem 0;
+  width: calc(100% - 24px);
+  max-width: 300px;
+}
+.section-container {
+  display: flex;
+  justify-content: center;
+  padding: 2 rem 0;
+  flex-wrap: wrap;
+}
+.section-grid {
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  justify-items: center;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
 /* page layout */
 body {
   background-color: var(--light);
