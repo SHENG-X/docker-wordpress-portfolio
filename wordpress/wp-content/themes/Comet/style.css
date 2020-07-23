@@ -135,98 +135,58 @@ body {
 
 /* skills section */
 .skills-container {
-  width: 100%;
-  display: grid;
-}
-.skill-item {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 36px;
+  justify-content: center;
+  padding: 3rem 0;
+  flex-wrap: wrap;
 }
-.skill-item .title{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: var(--white);
+.skills-item {
+  position: relative;
+  background: white;
+  box-shadow:  0 0 10px 2px #dedede;
+  padding-bottom: 1.5rem;
+  width: 300px;
+  margin: 1.5rem;
 }
-.skill-item .content {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 12px 6px;
-  margin-top: 16px;
-}
-.skill-item .title {
-  min-width: 230px;
-  max-width: 230px;
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-left: unset;
-  height: 36px;
-  border-radius: 0 100px 100px 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  box-shadow: 0 0 10px 3px var(--gary-light);
-}
-.skill-item .title:before {
-  content: '';
-  width: 5px;
-  height: 100%;
-  margin-right: 8px;
-}
-.content > div {
-  height: 36px;
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--white);
-  font-weight: 500;
-  font-size: 14px;
-  margin-left: 4px;
-  box-shadow: 0 0 10px 3px var(--gary-light);
-  border-radius: 4px;
+  padding: 4rem 0 1rem 0;
+  font-size: 1.3rem;
 }
-
-.front-end .title {
-  color: var(--red);
+.description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.front-end .title:before {
-  background: var(--red);
-  border: 2px var(--red) solid;
+.description-container .description {
+  max-width: 620px;
+  text-align: center;
 }
-
-.back-end .title {
-  color: var(--orange);
+.item {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0;
+  padding-left: 2.5rem;
 }
-.back-end .title:before {
-  background: var(--orange);
-  border: 2px var(--orange) solid;
+.item-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
 }
-
-.database .title {
-  color: var(--green);
-}
-.database .title:before {
-  background: var(--green);
-  border: 2px var(--green) solid;
-}
-
-.version-control .title {
-  color: var(--blue);
-}
-.version-control .title:before {
-  background: var(--blue);
-  border: 2px var(--blue) solid;
-}
-
-.project-management .title {
-  color: var(--indigo);
-}
-.project-management .title:before {
-  background: var(--indigo);
-  border: 2px var(--indigo) solid;
+.icon {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 3px #eee;
 }
 
 /* projects section */
