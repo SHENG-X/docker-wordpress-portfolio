@@ -12,7 +12,7 @@
           get_template_part('inc/section', 'main-nav');
         ?>
         <div class="intro-container">
-          <div class="wrapper wrapper-main clearfix">
+          <div class="wrapper wrapper-main container clearfix">
             <div class="row">
               <div class="intro col-md-8">
                 <div class="leading-label">
