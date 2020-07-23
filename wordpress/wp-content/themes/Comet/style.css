@@ -45,6 +45,18 @@ body {
   display: flex;
   justify-content: center;
 }
+.site-footer {
+}
+.copy-right {
+  height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  background-color: var(--dark);
+  color: var(--white);
+}
 .site-header {
   flex-direction: column;
 }
