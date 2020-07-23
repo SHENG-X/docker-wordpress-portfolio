@@ -140,6 +140,14 @@ body {
   padding: 3rem 0;
   flex-wrap: wrap;
 }
+.skills-grid {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center;
+}
 .skills-item {
   position: relative;
   background: white;
