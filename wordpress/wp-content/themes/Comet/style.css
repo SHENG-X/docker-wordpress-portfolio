@@ -104,9 +104,9 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-.site-branding {
+.social-media-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
   gap: 12px;
 }
 .svg-branding {
@@ -246,10 +246,42 @@ body {
   align-items: center;
 }
 
+/* contact page */
+.social-media-links svg {
+  fill: var(--primary);
+}
+.contact-extra {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.contact-extra .social-media-label {
+  font-weight: 600;
+}
+.contact-social-media,
+  .nf-form-content,
+  .nf-before-form-content, 
+  .nf-form-title > h3 {
+  max-width: 900px !important;
+}
+.contact-social-media {
+  text-align: center;
+  font-size: 1.15rem;
+}
+.social-media-links .social-media-container {
+  display: flex;
+  justify-content: center;
+}
+.social-media-links a {
+  margin: 6px;
+}
+.social-media-links .social-media-container svg{
+  width: 24px;
+  height: 24px;
+}
 /* overwrite ninja contact form css */
 .nf-before-form-content, .nf-form-title > h3 {
   padding: 5px;
-  max-width: 1000px;
   margin: 0 auto;
 }
 .nf-form-title > h3 {
