@@ -245,3 +245,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* overwrite ninja contact form css */
+.nf-before-form-content, .nf-form-title > h3 {
+  padding: 5px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.nf-form-title > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
