@@ -5,10 +5,11 @@
 ?>
 <nav class="navbar navbar-expand-lg navbar-light">
   <?php get_template_part('inc/section', 'social-media')?>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+  <button class="navbar-toggler btn btn-primary" type="button" data-toggle="collapse" 
     data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" \
     aria-expanded="false" aria-label="Toggle navigation"
   >
+  <i class="fas fa-bars"></i>
 </button>
 <div class="navbar-nav-container collapse navbar-collapse" id="navbarNavAltMarkup">
   <div class="navbar-nav">

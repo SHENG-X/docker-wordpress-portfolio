@@ -100,6 +100,26 @@ body {
   width: 100%;
   background: var(--blue);
 }
+.navbar-nav .nav-item {
+  color: rgba(200, 200, 200, 0.8) !important;
+  font-weight: 200;
+}
+.navbar-nav .nav-item:hover {
+  color: var(--white) !important;
+}
+.navbar-nav .active {
+  font-weight: 500 !important;
+  color: var(--white) !important;
+}
+.navbar-light .navbar-toggler, .navbar-toggler {
+  color: unset;
+  border-color: unset;
+  border: unset;
+  border-radius: unset;
+}
+.navbar-toggler i{
+  color: var(--white);
+}
 .navbar-nav-container { 
   display: flex;
   justify-content: flex-end;
