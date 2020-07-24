@@ -81,6 +81,13 @@ body {
   background: var(--primary);
   color: var(--white);
 }
+.hire-me .container {
+  font-weight: 200;
+}
+.hire-me .container a {
+  color: var(--white);
+  font-weight: 500;
+}
 .copy-right {
   height: 36px;
   width: 100%;
