@@ -10,8 +10,8 @@
             Looking for an experienced full-stack developer to 
             build your web app or ship your software product? To 
             start an initial chat, just drop me an email at 
-            <a href="mailto:sheng.x.work@gmail.com">sheng.x.work@gmail.com</a> or use the form on the contact 
-            page.
+            <a href="mailto:sheng.x.work@gmail.com">sheng.x.work@gmail.com</a> 
+            or use the form on the <a href="/contact-me">contact page</a>.
           </div>
           <div class="container flex justify-center items-center mt-3">
             <button class="btn btn-primary">
