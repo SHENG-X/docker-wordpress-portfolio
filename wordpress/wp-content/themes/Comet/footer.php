@@ -14,9 +14,9 @@
             or use the form on the <a href="/contact-me">contact page</a>.
           </div>
           <div class="container flex justify-center items-center mt-3">
-            <button class="btn btn-primary">
-              Talk to me
-            </button>
+            <a class="btn btn-primary" href="mailto:sheng.x.work@gmail.com">
+              Email Me
+            </a>
           </div>
         </div>
         <div class="copy-right">
