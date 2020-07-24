@@ -5,11 +5,13 @@ Template Name: Blogs
 ?>
 <?php get_header() ?>
   <div class="container">
-    <div class="blog-page-title">
-      A Blog About Software Development And Life
+    <div class="blog-page-title pt-5">
+      <h4>
+        A Blog About Software Development And Life
+      </h4>
     </div>
     <div class="blog-page-description">
-      Welcome to my blog.
+      Thanks for visiting my blog
     </div>
   </div>
   <div class="container py-5">

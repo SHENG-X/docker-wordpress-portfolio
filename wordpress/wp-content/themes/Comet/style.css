@@ -346,3 +346,6 @@ body {
   background-color: var(--primary);
   color: var(--white);
 }
+.blog-page-title, .blog-page-description {
+  text-align: center;
+}
