@@ -32,9 +32,9 @@
         foreach($tags as $tag):
     ?>
       <a
-        class="badge badge-success"
         href="<?php echo get_tag_link($tag->term_id); ?>"
       >
+      <i class="fa fa-tag"></i>
        <?php echo $tag->name; ?>
       </a>
     <?php 
@@ -50,7 +50,8 @@
       <a
         href="<?php echo get_category_link($category->term_id); ?>"
       >
-       <?php echo $category->name; ?>
+        <i class="fa fa-tag"></i>
+        <?php echo $category->name; ?>
       </a>
     <?php 
         endforeach;
