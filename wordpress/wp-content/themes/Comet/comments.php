@@ -45,7 +45,7 @@
     <?php
       //Declare Vars
       $comment_send = 'Send';
-      $comment_reply = 'Leave a Reply';
+      $comment_reply = 'Leave a comment';
       $comment_reply_to = 'Reply';
       
       $comment_author = 'Name';
