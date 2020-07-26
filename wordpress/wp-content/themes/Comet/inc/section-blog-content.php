@@ -4,7 +4,7 @@
   </h4>
   <div>
     <?php
-      echo get_the_date('m/d/Y');
+        echo get_the_date('j F, Y');
     ?>
   </div>
   <div>
