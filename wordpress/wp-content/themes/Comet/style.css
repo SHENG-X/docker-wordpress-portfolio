@@ -426,3 +426,16 @@ body {
   margin: 0;
   padding-bottom: 0.5rem;
 }
+
+.prv-next-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.prv-next-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.prv-next-buttons a:hover {
+  color: white;
+}
