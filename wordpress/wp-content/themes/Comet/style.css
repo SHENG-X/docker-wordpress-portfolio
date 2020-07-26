@@ -50,6 +50,9 @@ ul {
 .flex {
   display: flex;
 }
+.col-flex {
+  flex-direction: column;
+}
 .justify-center {
   justify-content: center;
 }
@@ -402,4 +405,24 @@ body {
 }
 .comment-reply-title {
   padding-bottom: 1rem;
+}
+.depth-2 {
+  margin-left: 5rem
+}
+.comment-header img {
+  border-radius: 50%;
+}
+.comments-inner > li {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--primary);
+}
+.comment-content, .reply {
+  padding: 0 3.7rem;
+}
+.comment-permalink {
+  font-size: 0.8rem;
+}
+.comment-content p {
+  margin: 0;
+  padding-bottom: 0.5rem;
 }
