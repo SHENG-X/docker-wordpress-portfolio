@@ -356,3 +356,50 @@ body {
 .blog-page-title, .blog-page-description {
   text-align: center;
 }
+
+/* 404 page */
+.error404-content {
+  display: flex;
+}
+.label404{
+  font-size: 8rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+/* blog comment */
+.comment-title {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+/* blog reply */
+.reply-form-container {
+  text-align: center;
+}
+.reply-form-container p {
+  display: flex;
+  flex-direction: column;
+}
+.reply-form-container p label {
+  text-align: left;
+}
+.reply-form-container .comment-notes,
+.reply-form-container .comment-form-cookies-consent {
+  flex-direction: row;
+}
+.reply-form-container .comment-notes {
+  justify-content: center;
+  align-items: center;
+}
+.reply-form-container .comment-form-cookies-consent {
+  align-items: center;
+}
+.reply-form-container .comment-form-cookies-consent label {
+  margin: 0;
+  padding-left: 0.5rem;
+}
+.comment-reply-title {
+  padding-bottom: 1rem;
+}
